@@ -1,0 +1,121 @@
+
+
+
+
+@media (max-width: 600px) {
+  .google td {
+    padding: 10px;
+  }
+
+  .google img {
+    width: 60px;
+  }
+
+  .amount {
+    flex-direction: column;   /* stack features */
+    align-items: center;
+  }
+
+  .arrange {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .women {
+    margin: 20px auto;
+    max-width: 100%;
+  }
+
+  .text {
+    text-align: center;
+  }
+  .premium {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .starter {
+    width: 90%;
+  }
+  .proven {
+    grid-template-columns: 1fr; /* single column */
+    padding: 20px;
+  }
+ 
+  .sec5 p {
+    margin: 0 auto 30px auto;
+    width: 90%;
+  }
+
+  .questions {
+    padding: 20px;
+  }
+  .sec5 p {
+    margin-bottom: 50px; 
+  }
+
+  .quest {
+   
+    display: flex;
+  }
+
+  .scooter {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .copy {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+  }
+  /* ✅ Extra mobile fixes */
+.email-box,
+.questions,
+.copy,
+.starter,
+.premium,
+.scooter {
+  width: 90% !important;
+  max-width: 90% !important;
+  margin: 0 auto;
+}
+.nav-menu{
+  display: block;
+  margin-right: 20px;
+}
+.nav-links
+{
+  display: none;
+}
+ .hero h1 {
+    font-size: 1.8rem;
+    line-height: 1.4;
+  }
+
+  .email-box {
+    flex-direction: column;   /* input and button stacked */
+    width: 100%;
+  }
+
+  .email-box input {
+    width: 100%;
+  }
+
+  .tab {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .cards {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .card {
+    max-width: 100%;
+  }
+
+}
